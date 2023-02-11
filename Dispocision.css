@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 50px;
+    background-color: #90a1b3;
+}
+
+.img-1, .img-2, .img-3, .img-4, .img-5, .img-6  {
+    width: 300px;
+    opacity: 0.8;
+    border-radius: 10px;
+    
+}
+
+.texto {
+   color: #173de7;
+   margin: 1rem;
+   padding: 1rem;
+   background-color: #ecf016;
+   border-radius: 1rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   
+}
+
+img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.texto:hover {
+    color: #0e0d0d;
+}
